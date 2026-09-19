@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
@@ -10,7 +11,7 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
     {
 	return ((char *)big);
     }
-    while (i < len)
+    while (big[i])
     {
 	j = 0;
 	while (big[i + j] == little[j] && i < len)
@@ -24,10 +25,4 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	i++;
     }
     return (NULL);
-}
-
-int	main(void)
-{
-    printf(ft_strnstr("Hello Google, How are you doing?!", "How", 200));
-    return (0);
 }
