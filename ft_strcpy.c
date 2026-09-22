@@ -1,9 +1,12 @@
-char	*strcpy(char *restrict dst, const char *restrict src)
+#include <string.h>
+#include "libft.h"
+
+char	*ft_strcpy(char *dst, const char *src)
 {
     size_t	i;
-
+       
     i = 0;
-    while(src[i])
+    while (src[i])
     {
 	dst[i] = src[i];
 	i++;
