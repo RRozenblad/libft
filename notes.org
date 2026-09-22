@@ -1,3 +1,4 @@
+
 #+TITLE: To do list libft
 #+AUTHOR: Rezano R
 #+DATE: Fri Sep 11 01:06:14 AM CEST 2026
@@ -12,15 +13,15 @@
 ** TODO write memcmp
 ** DONE write strlen
 ** TODO write strdup
-** TODO write strcpy
-** TODO write strncpy
+** DONE write strcpy
+** DONE write strncpy
 ** TODO write strcat
 ** TODO write strncat
 ** TODO write strlcat
 ** TODO write strchr
 ** TODO write strrchr
 ** DONE write strstr
-** TODO write strnstr
+** DONE write strnstr
 ** DONE write strcmp
 ** DONE write strncmp
 ** TODO write atoi
@@ -31,3 +32,4 @@
 ** DONE write isprint
 ** DONE write toupper
 ** DONE write tolower 
+
